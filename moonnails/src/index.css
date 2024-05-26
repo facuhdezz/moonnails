@@ -2,7 +2,27 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+/*
+font-family: "Rubik", sans-serif;
+*/
+
+* {    
+    scroll-behavior: smooth;
+}
+
 body {
-    background-color: rgb(253, 247, 234);
+    background-color: rgb(211, 201, 180);
     background-attachment: fixed;
+    font-family: "Rubik", sans-serif;
+}
+
+h2 {
+    font-family: "Rubik", sans-serif;
+}
+
+.wppbtn {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
 }

@@ -1,17 +1,18 @@
 import Logo from '../assets/logos/logo_moonnails.png'
+import Menu from '../assets/icons/menu.svg'
+import Cart from '../assets/icons/cart.svg'
+import Calendar from '../assets/icons/calendar.svg'
 
 const NavBar = () => {
     return (
-        <nav className="flex top-0 w-full h-24 bg-white px-48 items-center text-xl justify-between">
-            <div className="flex gap-12 items-center">
-                <img src={Logo} className='h-16 cursor-pointer'/>
-                <p className='cursor-pointer'>Agenda</p>
-                <p className='cursor-pointer'>Productos</p>
-                <p className='cursor-pointer'>Galería</p>
-            </div>
-            <div className="flex gap-12">
-                <p className='cursor-pointer'>Buscar</p>
-                <p className='cursor-pointer'>Carrito</p>
+        <nav className="flex top-0 w-full h-24 px-6 bg-white items-center text-xl sticky">
+            <div className="flex gap-12 justify-between items-center w-full">
+                <img src={Logo} className='h-14 cursor-pointer' />
+                <div className='flex gap-6 justify-between'>
+                    <img src={Cart} className='h-8 cursor-pointer' />
+                    <img src={Calendar} className='h-8 cursor-pointer' />
+                    <img src={Menu} className='h-8 cursor-pointer' />
+                </div>
             </div>
         </nav>
     )
