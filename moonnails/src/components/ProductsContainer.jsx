@@ -10,7 +10,7 @@ const ProductsContainer = () => {
             </div>            
             <div className="grid grid-cols-2">
                 {ProductList.map(product => (
-                    <ProductsCards key={product.id} nombre={product.nombre} foto={product.foto} descripcion={product.descripcion} moneda={product.moneda} precio={product.precio} />
+                    <ProductsCards key={product.id} link={product.id} nombre={product.nombre} foto={product.foto} descripcion={product.descripcion} moneda={product.moneda} precio={product.precio} />
                 ))}
             </div>
             <div className="py-2 px-4">
