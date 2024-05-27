@@ -2,7 +2,15 @@
     {
         "id": "1",
         "nombre": "Producto 1",
-        "descripcion": "descripcion del producto 1",
+        "descripcion": [
+            "Conserva un color brillante sin volverse amarillo con el tiempo.",
+            "Asegura aplicaciones flexibles y duraderas en cada uso.",
+            "Ofrece una excelente adhesión al combinarse con cualquiera de los Polvos Acrílicos de Mia Secret.",
+            "Facilita el proceso de esculpido de uñas acrílicas con un secado medio.",
+            "Su rendimiento es superior incluso en bajas temperaturas.",
+            "Contiene baja esencia, perfecto para uso en interiores sin olores fuertes."
+        ],
+        "marca": "Avón",
         "precio": "precio del producto 1",
         "moneda": "$",
         "foto": "IMG_2336.jpg"
@@ -11,6 +19,7 @@
         "id": "2",
         "nombre": "Producto 2",
         "descripcion": "descripcion del producto 2",
+        "marca": "Avón",
         "precio": "precio del producto 2",
         "moneda": "$",
         "foto": "IMG_2341.jpg"
@@ -19,6 +28,7 @@
         "id": "3",
         "nombre": "Producto 3",
         "descripcion": "descripcion del producto 3",
+        "marca": "Avón",
         "precio": "precio del producto 3",
         "moneda": "$",
         "foto": "IMG_2342.jpg"
@@ -27,6 +37,7 @@
         "id": "4",
         "nombre": "Producto 4",
         "descripcion": "descripcion del producto 4",
+        "marca": "Avón",
         "precio": "precio del producto 4",
         "moneda": "$",
         "foto": "IMG_2344.jpg"
