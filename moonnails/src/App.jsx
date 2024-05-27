@@ -5,6 +5,7 @@ import { Route, Routes } from "react-router-dom";
 import ProductDetail from "./components/ProductDetail";
 
 function App() {
+
   return (
     <>
       <NavBar />

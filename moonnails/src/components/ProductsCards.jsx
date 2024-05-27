@@ -13,7 +13,7 @@ const ProductsCards = (producto) => {
           <span>{producto.moneda}</span>
            {/* {producto.precio} */}500
         </p>
-        <button className="border-2 rounded-md border-solid border-orange-200 px-2 py-1 mt-2 mb-1 hover:bg-orange-100">Comprar</button>
+        <Link to={"/item/"+ producto.link}><button className="border-2 rounded-md border-solid border-orange-200 px-2 py-1 mt-2 mb-1 hover:bg-orange-100">Comprar</button></Link>
       </div>
       {/* <div className="px-6 pt-4 pb-2">
         <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>

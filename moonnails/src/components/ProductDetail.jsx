@@ -42,7 +42,7 @@ const ProductDetail = () => {
                     <button className="text-xl border-2 rounded-md border-solid border-orange-200 px-2 py-1 mt-2 mb-1 hover:bg-orange-100 grow">Agregar al carrito</button>
                 </div>
                 <button className="text-xl w-full border-2 rounded-md border-solid border-orange-200 px-2 py-1 mt-2 mb-1 hover:bg-orange-100">Seguir explorando</button>
-                <button className="text-xl w-full border-2 rounded-md border-solid border-orange-200 px-2 py-1 mt-2 mb-1 hover:bg-orange-100">Ir al inicio</button>
+                <Link to={"/"}><button className="text-xl w-full border-2 rounded-md border-solid border-orange-200 px-2 py-1 mt-2 mb-1 hover:bg-orange-100">Ir al inicio</button></Link>
             </div>
             <div className="bg-white p-4">
                 <h1 className="text-xl mb-2 ml-2">Productos relacionados</h1>

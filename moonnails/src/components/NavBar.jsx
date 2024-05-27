@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 
 const NavBar = () => {
     return (
-        <nav className="flex top-0 w-full h-24 px-6 bg-white items-center text-xl sticky">
+        <nav className="flex top-0 w-full h-24 px-6 bg-white items-center text-xl sticky z-10">
             <div className="flex gap-12 justify-between items-center w-full">
                 <Link to={"/"}><img src={Logo} className='h-14 cursor-pointer' /></Link>
                 <div className='flex gap-6 justify-between'>
