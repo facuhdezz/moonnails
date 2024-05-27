@@ -17,7 +17,7 @@ const ProductDetail = () => {
                 <Link to={"/"}><h1>Volver</h1></Link>
             </div>
             <div className="bg-white flex-col p-2">
-                <img className="w-auto rounded-lg" src={`../src/assets/products/${product.foto}`} />
+                <img className="w-auto rounded-lg" src={product.foto} />
                 <div className="mt-2">
                     <h1 className="text-2xl mb-2 ml-2">{product.nombre}</h1>
                     <div className="relative mb-4">
