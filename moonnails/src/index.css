@@ -12,7 +12,8 @@ font-family: "Rubik", sans-serif;
 }
 
 body {
-    background-color: rgb(211, 201, 180);
+    /* background-color: rgb(211, 201, 180); */
+    background-color: rgb(238, 238, 238);
     background-attachment: fixed;
     font-family: "Rubik", sans-serif;
 }
@@ -36,3 +37,4 @@ h2 {
     height: 50px;
     pointer-events: none;
 }
+

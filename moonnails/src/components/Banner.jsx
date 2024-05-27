@@ -1,6 +1,16 @@
+import { useEffect } from 'react';
 import BannerImg from '../assets/banners/1.jpg'
 
 const Banner = () => {
+
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            window.scrollTo(0, 0);
+          }, 200);
+
+          return () => clearTimeout(timer);
+    }, []);
+
     return(
         <>
             <img className='w-auto' src={BannerImg} />
