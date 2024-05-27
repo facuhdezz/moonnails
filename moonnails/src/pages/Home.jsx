@@ -6,8 +6,10 @@ const Home = () => {
     return (
         <>
             <Banner />
-            <ProductsContainer />
-            <ImagenesNails />
+            <main className="flex flex-col my-4 gap-4">
+                <ProductsContainer />
+                <ImagenesNails />                
+            </main>
         </>
     )
 }
