@@ -1,4 +1,5 @@
 import Banner from "../components/Banner";
+import ImagenesNails from "../components/ImagenesNails";
 import ProductsContainer from "../components/ProductsContainer";
 
 const Home = () => {
@@ -6,6 +7,7 @@ const Home = () => {
         <>
             <Banner />
             <ProductsContainer />
+            <ImagenesNails />
         </>
     )
 }
