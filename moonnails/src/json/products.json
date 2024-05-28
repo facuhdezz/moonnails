@@ -13,7 +13,7 @@
         "marca": "Avón",
         "precio": "precio del producto 1",
         "moneda": "$",
-        "foto": "https://firebasestorage.googleapis.com/v0/b/moonnails-52b2b.appspot.com/o/products%2FIMG_2336.jpg?alt=media&token=f76c54f9-2731-4ea6-b7a5-a827d301f803"
+        "foto": "https://firebasestorage.googleapis.com/v0/b/moonnails-52b2b.appspot.com/o/products%2FIMG_2336.webp?alt=media&token=71e5a173-97ff-4777-90a9-918926713f24"
     },
     {
         "id": "2",
@@ -22,7 +22,7 @@
         "marca": "Avón",
         "precio": "precio del producto 2",
         "moneda": "$",
-        "foto": "https://firebasestorage.googleapis.com/v0/b/moonnails-52b2b.appspot.com/o/products%2FIMG_2341.jpg?alt=media&token=06fa9ffe-4396-4529-96c7-b15bf6ae3c96"
+        "foto": "https://firebasestorage.googleapis.com/v0/b/moonnails-52b2b.appspot.com/o/products%2FIMG_2341.webp?alt=media&token=e260b945-6611-40bd-967e-b1fcfaf1bce6"
     },
     {
         "id": "3",
@@ -31,7 +31,7 @@
         "marca": "Avón",
         "precio": "precio del producto 3",
         "moneda": "$",
-        "foto": "https://firebasestorage.googleapis.com/v0/b/moonnails-52b2b.appspot.com/o/products%2FIMG_2342.jpg?alt=media&token=262b9ac3-6d28-42d6-a731-13fe09a94d6a"
+        "foto": "https://firebasestorage.googleapis.com/v0/b/moonnails-52b2b.appspot.com/o/products%2FIMG_2342.webp?alt=media&token=8a6fb8d9-13d4-4fde-a013-6f170ade3502"
     },
     {
         "id": "4",
@@ -40,6 +40,6 @@
         "marca": "Avón",
         "precio": "precio del producto 4",
         "moneda": "$",
-        "foto": "https://firebasestorage.googleapis.com/v0/b/moonnails-52b2b.appspot.com/o/products%2FIMG_2344.jpg?alt=media&token=011b5842-dea5-43c0-a962-959d54fac809"
+        "foto": "https://firebasestorage.googleapis.com/v0/b/moonnails-52b2b.appspot.com/o/products%2FIMG_2344.webp?alt=media&token=a83c4e49-aa1c-4cc5-b629-7bc566d06f58"
     }
 ]
