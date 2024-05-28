@@ -1,6 +1,6 @@
 import ProductDetail from "../components/ProductDetail";
 import ProductsContainer from "../components/ProductsContainer";
-import VolverAtras from "../components/VolverAtras"
+import Return from "../components/Return"
 import scrollToTop from "../functions/scrollToTop";
 
 const ProductDetailPage = () => {
@@ -9,7 +9,7 @@ const ProductDetailPage = () => {
 
     return (
         <main className="flex flex-col gap-4 my-4">
-            <VolverAtras />
+            <Return />
             <ProductDetail />
             <ProductsContainer />
         </main>

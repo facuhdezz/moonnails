@@ -1,6 +1,6 @@
 import Albums from "../components/Albums";
-import Galeria from "../components/Galeria";
-import VolverAtras from "../components/VolverAtras";
+import Galery from "../components/Galery";
+import Return from "../components/Return";
 import scrollToTop from "../functions/scrollToTop";
 
 const GaleryPage = () => {
@@ -10,9 +10,9 @@ const GaleryPage = () => {
     return (
         <>
             <main className="flex flex-col my-4 gap-4">
-                <VolverAtras />
+                <Return />
                 <Albums />
-                <Galeria />               
+                <Galery />               
             </main>
         </>
     )
