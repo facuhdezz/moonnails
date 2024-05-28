@@ -1,21 +1,10 @@
 import { Link } from "react-router-dom";
 import ProductList from "../json/products.json";
 import Counter from "./Counter";
-import ProductsCards from "./ProductsCards";
-import Arrow from "../assets/icons/arrow.svg"
-import { useEffect } from "react";
-import VolverAtras from "./VolverAtras";
 
 const ProductDetail = () => {
 
     const product = ProductList[0]
-    useEffect(() => {
-        const timer = setTimeout(() => {
-            window.scrollTo(0, 0);
-          }, 200);
-
-          return () => clearTimeout(timer);
-    }, []);
 
     return(
         <div className="mx-4 w-auto divide-y flex flex-col gap-4">

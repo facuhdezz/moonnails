@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom"
-import Arrow from "../assets/icons/arrow.svg"
+import { Link } from "react-router-dom";
+import Arrow from "../assets/icons/arrow.svg";
 
 const VolverAtras = () => {
     return (
