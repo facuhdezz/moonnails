@@ -5,18 +5,29 @@ const AddItem = () => {
 
     const [product, setProduct] = useState({
         nombre: "",
-        descripcion: "",
+        descripcion: null,
         stock: null,
         marca: "",
         moneda: "",
         precio: null,
-        foto: ""
+        foto: "",
+        destacado: null
     })
+
+    const [isChecked, setIsChecked] = useState(false);
+
+    let descripcion = []
 
     const [isAdded, setIsAdded] = useState(false);
 
     const handleChange = ({ target: { name, value } }) => {
-        setProduct({ ...product, [name]: value })
+        if (name == "descripcion") {
+            descripcion = value.split("/")
+            setProduct({ ...product, [name]: descripcion })
+        } else {
+            setProduct({ ...product, [name]: value })
+        }
+        console.log(product);
     }
 
     const handleSubmit = (e) => {
@@ -118,6 +129,33 @@ const AddItem = () => {
                                 placeholder="Ingrese la url de la imagen"
                                 required
                             />
+                        </div>
+                        <div className="flex p-4 gap-3 items-center">
+                            <label>Producto Destacado</label>
+                            <div className="flex gap-1">
+                                <input
+                                className="p-2 border rounded bg-gray-100"
+                                onChange={handleChange}
+                                type="radio"
+                                name="destacado"
+                                id="destacado"
+                                value={true}
+                                placeholder="Ingrese la url de la imagen"
+                                />
+                                <label>Sí</label>
+                            </div>
+                            <div className="flex gap-1">
+                                <input
+                                className="p-2 border rounded bg-gray-100"
+                                onChange={handleChange}
+                                type="radio"
+                                name="destacado"
+                                id="destacado"
+                                value={false}
+                                placeholder="Ingrese la url de la imagen"
+                                />
+                                <label>No</label>
+                            </div>
                         </div>
                     </div>
                     <div className="py-2 px-2 text-center">
